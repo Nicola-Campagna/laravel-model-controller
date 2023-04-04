@@ -10,11 +10,7 @@
 </head>
 
 <body>
-    @php
-        foreach ($movies as $movie) {
-            echo $movie->title;
-        }
-    @endphp
+   
 </body>
 
 </html>
