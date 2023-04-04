@@ -11,4 +11,6 @@ public function movieList(){
     $movies=Movie::all();
     return view('movielist',compact('movies'));
 }
+
+
 }
